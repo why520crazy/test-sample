@@ -4,3 +4,5 @@ node_js:
   - 8
 after_success: npm run travis:coverage
 services: mongodb
+service_name: travis-pro
+repo_token: 5vRgifqswesUZmV1Fyj3fqUdgKyuYg1XE
