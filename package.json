@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/app.js",
     "test": "mocha src/**/**/*.spec.js",
-    "eslint": "eslint src/**/**",
+    "eslint": "eslint src/**/**/*.js",
     "cover": "nyc npm test --all",
     "travis:coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
