@@ -2,9 +2,11 @@ const assert = require('assert');
 const util = require('./util');
 
 describe('util', () => {
+  
   it('should return hello when the value is hello', function () {
     assert.equal('hello', util.trim('hello'));
   });
+
   it('should return hello when the value is space', function () {
     assert.equal('hello', util.trim('hello '));
   });
@@ -17,7 +19,7 @@ describe('util', () => {
     assert.deepEqual({id: 1}, util.trim({id: 1}));
   });
 
-  it('should generateObjectId', function () {
+  it('should generate mongodb objectId', function () {
     const objectId = util.generateObjectId();
     assert.deepEqual(24, objectId.toString().length);
   });
