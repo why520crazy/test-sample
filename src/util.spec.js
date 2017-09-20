@@ -16,4 +16,9 @@ describe('util', () => {
   it('should return object when the value is object', function () {
     assert.deepEqual({id: 1}, util.trim({id: 1}));
   });
+
+  it('should generateObjectId', function () {
+    const objectId = util.generateObjectId();
+    assert.deepEqual(24, objectId.toString().length);
+  });
 });

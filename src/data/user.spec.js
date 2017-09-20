@@ -1,5 +1,6 @@
 const data = require('./index');
 const assert = require('assert');
+const util = require('../util');
 
 describe('user-repository', () => {
 
@@ -52,6 +53,16 @@ describe('user-repository', () => {
         assert.equal(dbUser.first_name, peterUser.first_name);
         assert.equal(dbUser.last_name, peterUser.last_name);
         assert.deepEqual(dbUser._id, peterUser._id);
+    });
+
+    it('get user by id ', async () => {
+        const dbUser = await data.user.getUserById(util.generateObjectId());
+        assert.equal(dbUser, null);
+    });
+
+    it('get users ', async () => {
+        const users = await data.user.getUsers(1, 20);
+        assert.equal(users.length, 0);
     });
 
 });

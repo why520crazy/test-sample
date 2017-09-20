@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "test": "mocha src/**/**/*.spec.js"
+    "test": "mocha src/**/**/*.spec.js",
+    "cover": "nyc npm test",
+    "travis:coverage": "nyc report --reporter=text-lcov npm test | coveralls"
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,11 @@
   },
   "homepage": "https://github.com/why520crazy/test-sample#readme",
   "devDependencies": {
+    "coveralls": "^2.13.1",
+    "istanbul": "^0.4.5",
     "mocha": "^3.5.3",
-    "mockery": "^2.1.0"
+    "mockery": "^2.1.0",
+    "nyc": "^11.2.1"
   },
   "dependencies": {
     "koa": "^2.3.0",

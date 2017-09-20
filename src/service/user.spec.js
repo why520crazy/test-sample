@@ -32,9 +32,13 @@ class UserRepositoryMock {
     }
 
     getUsers(page, size) {
-        return {
-
-        }
+        return [{
+                username: 'haifeng',
+                email: 'haifeng@123.com',
+                first_name: 'haifeng',
+                last_name: 'xu'
+            }
+        ]
     }
 }
 
@@ -93,6 +97,12 @@ describe('user-service', () => {
             assert.notEqual(error, null);
             assert.equal('username has already been registered', error.message)
         }
+    });
+
+    it('get users', async () => {
+        const service = require('./index');
+        const users = await service.user.getUsers();
+        assert.equal(users.length, 1);
     });
 
 });
