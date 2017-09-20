@@ -3,7 +3,8 @@ const app = new Koa();
 // const db = require('./db');
 const router = require('koa-router')();
 const bodyParser = require('koa-bodyparser');
-const service = require('./service')
+const service = require('./service');
+const api = require('./api');
 
 app.use(bodyParser());
 
@@ -12,16 +13,17 @@ router.get('/', ctx => {
     ctx.body = 'Hello Koa';
 });
 
-router.get('/api/account/users', async ctx => {
-    const users = await service.user.getUsers();
-    ctx.body = {
-        data: users
-    };
-});
+api.initialize(app);
 
 app
     .use(router.routes())
     .use(router.allowedMethods());
+
+// if (process.env.NODE_ENV !== 'test') {
+//     app.listen(3000, () => {
+//         console.log(`server is started...`)
+//     });
+// }
 
 const server = app.listen(3000, () => {
     console.log(`server is started...`)

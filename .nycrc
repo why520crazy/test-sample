@@ -1,8 +1,12 @@
 {
     "exclude": [
       "**/**/*.spec.js",
-      "src/db.js"
+      "src/db.js",
+      "src/app.js",
+      "test/**/**",
+      "coverage/**"
     ],
+     "all": true,
     "per-file": true,
     "lines": 99,
     "statements": 99,

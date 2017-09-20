@@ -13,11 +13,11 @@ describe('user-repository', () => {
         email: 'email',
         first_name: 'peter1',
         last_name: 'xu'
-    }
+    };
 
     const addPeter = async () => {
         return await data.user.addUser(USER_PETER.username, USER_PETER.email, USER_PETER.first_name, USER_PETER.last_name);
-    }
+    };
 
     it('add user', async () => {
         const user = await addPeter();
@@ -62,7 +62,7 @@ describe('user-repository', () => {
 
     it('get users ', async () => {
         const users = await data.user.getUsers(1, 20);
-        assert.equal(users.length, 1);
+        assert.equal(users.length, 0);
     });
 
 });
