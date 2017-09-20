@@ -62,7 +62,7 @@ describe('user-repository', () => {
 
     it('get users ', async () => {
         const users = await data.user.getUsers(1, 20);
-        assert.equal(users.length, 0);
+        assert.equal(users.length, 1);
     });
 
 });
