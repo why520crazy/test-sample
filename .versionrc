@@ -14,7 +14,7 @@
     },
     {
       "filename": "src/VERSION_TRACKER.json",
-       "updater": "standard-version-updater.js"
+       "updater": "./scripts/standard-version-updater.js"
     }
   ]
 }

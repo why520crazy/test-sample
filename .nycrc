@@ -4,9 +4,10 @@
       "src/db.js",
       "src/app.js",
       "test/**/**",
-      "coverage/**"
+      "coverage/**",
+       "scripts/**"
     ],
-     "all": true,
+    "all": true,
     "per-file": true,
     "lines": 99,
     "statements": 99,
