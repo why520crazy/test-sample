@@ -1,6 +1,12 @@
-# Changelog
+# Test Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.1.0](https://github.com/why520crazy/test-sample/compare/v1.0.3...v1.1.0) (2020-02-19)
+
+
+### Features
+
+* custom bump files ([246e657](https://github.com/why520crazy/test-sample/commit/246e6574988a0fb8480105c73e52efdf64834c6e))
 
 ### [1.0.3](https://github.com/why520crazy/test-sample/compare/v1.0.2...v1.0.3) (2020-02-19)
 
