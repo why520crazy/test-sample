@@ -1,5 +1,5 @@
 {
-  "name": "test-sample",
+  "name": "@why520crazy/test-sample",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,8 @@
     "eslint": "eslint src/**/**/*.js",
     "cover": "nyc npm test --all",
     "release": "standard-version",
+    "pub-only": " npm publish --access=public",
+    "pub": "git push --follow-tags origin master && npm run pub-only",
     "travis:coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
