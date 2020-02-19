@@ -1,0 +1,16 @@
+{
+  "name": "@why520crazy/test-sample1",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/why520crazy/test-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/why520crazy/test-sample/issues"
+  },
+  "homepage": "https://github.com/why520crazy/test-sample#readme"
+}
