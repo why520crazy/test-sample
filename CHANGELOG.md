@@ -1,6 +1,30 @@
 # Test Changelog
 
 
+## [1.2.0](https://github.com/why520crazy/test-sample/compare/v1.0.8...v1.2.0) (2020-02-19)
+
+
+### Features
+
+* add release script ([7418d66](https://github.com/why520crazy/test-sample/commit/7418d662a843c053c3d699781a5184fe1d914bb7))
+
+
+### Bug Fixes
+
+* improve test coverage exclude scripts ([69e5862](https://github.com/why520crazy/test-sample/commit/69e5862be269a0c0433586dd40c5fe6cd5573e3e))
+
+## [1.1.0](https://github.com/why520crazy/test-sample/compare/v1.0.8...v1.1.0) (2020-02-19)
+
+
+### Features
+
+* add release script ([7418d66](https://github.com/why520crazy/test-sample/commit/7418d662a843c053c3d699781a5184fe1d914bb7))
+
+
+### Bug Fixes
+
+* improve test coverage exclude scripts ([69e5862](https://github.com/why520crazy/test-sample/commit/69e5862be269a0c0433586dd40c5fe6cd5573e3e))
+
 ### [1.0.9](https://github.com/why520crazy/test-sample/compare/v1.0.8...v1.0.9) (2020-02-19)
 
 ### [1.0.8](https://github.com/why520crazy/test-sample/compare/v1.0.7...v1.0.8) (2020-02-19)
