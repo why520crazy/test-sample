@@ -11,6 +11,7 @@
     "standard-version": "standard-version",
     "release": "release",
     "wt-release": "wt-release",
+    "wt-publish": "wt-publish --publish-dir .",
     "pub-only": "npm publish --access=public",
     "pub": "git push --follow-tags origin master && npm run pub-only",
     "travis:coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
