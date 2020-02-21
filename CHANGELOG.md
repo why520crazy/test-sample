@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://www.github.com/why520crazy/test-sample/compare/v1.2.0...v1.2.1) (2020-02-21)
+
+
+### Bug Fixes
+
+* db6 ([97c5c38](https://www.github.com/why520crazy/test-sample/commit/97c5c38df6c2103a960ebda58564a05955fe5ea6))
+* pub and release ([32e4c8a](https://www.github.com/why520crazy/test-sample/commit/32e4c8ae2b293385526bf131b6e2d5c357e5a4c6))
+
 ## [1.2.0](https://github.com/why520crazy/test-sample/compare/v1.1.0...v1.2.0) (2020-02-21)
 
 
