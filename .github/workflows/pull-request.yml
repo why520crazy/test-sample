@@ -1,0 +1,18 @@
+name: Pull Request on Release Push
+on:
+  push:
+    branches-ignore:
+      - master
+      - develop
+      - production
+jobs:
+  auto-pull-request:
+    name: PullRequestAction
+    runs-on: ubuntu-latest
+    steps:
+      - name: pull-request-action
+        uses: vsoch/pull-request-action@master
+        env:
+          GITHUB_TOKEN: a531db20bb3e2c03542b5f24c36438e649f53d00
+          BRANCH_PREFIX: "release-"
+          PULL_REQUEST_BRANCH: "master"
