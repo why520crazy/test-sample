@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://www.github.com/why520crazy/test-sample/compare/v1.0.8...v1.1.0) (2020-02-21)
+
+
+### Features
+
+* add release script ([7418d66](https://www.github.com/why520crazy/test-sample/commit/7418d662a843c053c3d699781a5184fe1d914bb7))
+* **core:** add semantic-release ([7d65e01](https://www.github.com/why520crazy/test-sample/commit/7d65e010fe1165a6ad7e5a99b59545b8bf483241))
+* **scripts:** add wt-publish ([b31b702](https://www.github.com/why520crazy/test-sample/commit/b31b7027f9e7f4def7d154289ad8c3ac68087a72))
+* add release-please ([dddefa8](https://www.github.com/why520crazy/test-sample/commit/dddefa84bef54af79c887c9ea3f69a386cda943d))
+
+
+### Bug Fixes
+
+* add 2.0.0 ([c07a69f](https://www.github.com/why520crazy/test-sample/commit/c07a69f04dc6f09aa0e72d7f6631911f58393e68))
+* **db:** change db ([473eb64](https://www.github.com/why520crazy/test-sample/commit/473eb64acf4b884b1b6214bdc423e14560e18b36))
+* add db 2 ([23bd800](https://www.github.com/why520crazy/test-sample/commit/23bd80068a728c08fb40782aa6e9c8547c6584e1))
+* fix db connectr error ([4d3dce1](https://www.github.com/why520crazy/test-sample/commit/4d3dce17385adf6a36e44f1147451113f9e7f04b))
+* improve test coverage exclude scripts ([69e5862](https://www.github.com/why520crazy/test-sample/commit/69e5862be269a0c0433586dd40c5fe6cd5573e3e))
+
 ## [1.0.0](https://github.com/why520crazy/test-sample/compare/v0.0.2-beta.0...v1.0.0) (2020-02-21)
 
 
