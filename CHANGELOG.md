@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/why520crazy/test-sample/compare/v1.1.0...v1.2.0) (2020-02-21)
+
+
+### Features
+
+* add db2 ([3acec27](https://github.com/why520crazy/test-sample/commit/3acec2709172ba50c4f3286b28d5e3318dd0e012))
+* **db:** add db3 ([3e71a92](https://github.com/why520crazy/test-sample/commit/3e71a9250bf1e5cee7237dafda03ec365bebe82e))
+
+
+### Bug Fixes
+
+* add db5 ([b5fb875](https://github.com/why520crazy/test-sample/commit/b5fb8752775129b8a10d379195d6082920d66ebc))
+* add secrets.GITHUB_TOKEN ([1fc82f9](https://github.com/why520crazy/test-sample/commit/1fc82f9d5de7372d57984bb01a5ab31e737bcc15))
+* change db 4 ([ddf61ff](https://github.com/why520crazy/test-sample/commit/ddf61ff8c0eb9ac075367faca9a2740725d56dd6))
+* nodejs npm install ([40350ff](https://github.com/why520crazy/test-sample/commit/40350ff2ad36e27739749260f9833fd8155b6760))
+
 ## [1.1.0](https://www.github.com/why520crazy/test-sample/compare/v1.0.8...v1.1.0) (2020-02-21)
 
 

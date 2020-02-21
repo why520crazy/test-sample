@@ -1,6 +1,6 @@
 {
   "name": "@why520crazy/test-sample",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "cover": "nyc npm test --all",
     "standard-version": "standard-version",
     "release": "release",
+    "wt-pm": "wt-pm",
     "wt-release": "wt-release",
     "wt-publish": "wt-publish --publish-dir .",
     "pub-only": "npm publish --access=public",
