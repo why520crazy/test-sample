@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.3"></a>
+## [1.2.3](https://github.com/why520crazy/test-sample/compare/v1.2.2...v1.2.3) (2020-02-25)
+
+
+### Bug Fixes
+
+* fix db 9 ([85a0000](https://github.com/why520crazy/test-sample/commit/85a0000))
+
+
+### Features
+
+* **db:** add db8 #WT-122 ([2b1d84c](https://github.com/why520crazy/test-sample/commit/2b1d84c)), closes [#WT-122](https://github.com/why520crazy/test-sample/issues/WT-122)
+
+
+### Performance Improvements
+
+* improve perf ([4c5c455](https://github.com/why520crazy/test-sample/commit/4c5c455))
+
+
+
 ### [1.2.2](https://www.github.com/why520crazy/test-sample/compare/v1.2.1...v1.2.2) (2020-02-21)
 
 
