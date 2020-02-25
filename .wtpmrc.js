@@ -15,7 +15,17 @@ module.exports = {
     {
       filename: "src/VERSION_TRACKER.json",
       updater: "./scripts/standard-version-updater.js"
+    },
+    {
+      filename: "src/version.js",
+      type: "code"
     }
   ],
-  preset: "angular"
+  preset: "angular",
+  hooks: {
+    prerelease: "echo 'prerelease'",
+    postrelease: "echo 'postrelease'",
+    prepublish: "echo 'prepublish'",
+    postpublish: "echo 'postpublish'"
+  }
 };
