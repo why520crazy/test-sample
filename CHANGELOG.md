@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.5"></a>
+## [1.2.5](https://github.com/why520crazy/test-sample/compare/v1.2.4...v1.2.5) (2020-03-03)
+
+
+
 ## [1.2.4](https://github.com/why520crazy/test-sample/compare/v1.2.3...v1.2.4) (2020-02-26)
 
 
