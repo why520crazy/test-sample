@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="1.2.3"></a>
+## [2.1.0](https://www.github.com/why520crazy/test-sample/compare/v2.0.0...v2.1.0) (2020-05-22)
+
+
+### Features
+
+* add db2 ([3acec27](https://www.github.com/why520crazy/test-sample/commit/3acec2709172ba50c4f3286b28d5e3318dd0e012))
+* **db:** add db3 ([3e71a92](https://www.github.com/why520crazy/test-sample/commit/3e71a9250bf1e5cee7237dafda03ec365bebe82e))
+* **db:** add db8 #WT-122 ([2b1d84c](https://www.github.com/why520crazy/test-sample/commit/2b1d84cf38dc73973443d8f55db756db7b691ac5)), closes [#WT-122](https://www.github.com/why520crazy/test-sample/issues/WT-122)
+
+
+### Bug Fixes
+
+* add db5 ([b5fb875](https://www.github.com/why520crazy/test-sample/commit/b5fb8752775129b8a10d379195d6082920d66ebc))
+* add secrets.GITHUB_TOKEN ([1fc82f9](https://www.github.com/why520crazy/test-sample/commit/1fc82f9d5de7372d57984bb01a5ab31e737bcc15))
+* change db 4 ([ddf61ff](https://www.github.com/why520crazy/test-sample/commit/ddf61ff8c0eb9ac075367faca9a2740725d56dd6))
+* db6 ([97c5c38](https://www.github.com/why520crazy/test-sample/commit/97c5c38df6c2103a960ebda58564a05955fe5ea6))
+* db7 ([d0ac02e](https://www.github.com/why520crazy/test-sample/commit/d0ac02ebe50c2c9db434d9ad544f393d6590ef97))
+* fix db 9 ([85a0000](https://www.github.com/why520crazy/test-sample/commit/85a000046619cc1431fd44c689467e6c298df9a9))
+* nodejs npm install ([40350ff](https://www.github.com/why520crazy/test-sample/commit/40350ff2ad36e27739749260f9833fd8155b6760))
+* pub and release ([32e4c8a](https://www.github.com/why520crazy/test-sample/commit/32e4c8ae2b293385526bf131b6e2d5c357e5a4c6))
+
+
+### Performance Improvements
+
+* improve perf ([4c5c455](https://www.github.com/why520crazy/test-sample/commit/4c5c4554ac4f6b0573e34507e12e064497beb371))
+
 ## [1.2.3](https://github.com/why520crazy/test-sample/compare/v1.2.2...v1.2.3) (2020-02-25)
 
 
