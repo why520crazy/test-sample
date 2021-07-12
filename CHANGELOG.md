@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.4](https://www.github.com/why520crazy/test-sample/compare/v1.2.3...v1.2.4) (2021-07-12)
+
+
+### Bug Fixes
+
+* release 1.2.5 ([68a108d](https://www.github.com/why520crazy/test-sample/commit/68a108d3366aaf15e3ca4a444ea60c5f472d5b7f))
+* release 1.2.5 ([d118288](https://www.github.com/why520crazy/test-sample/commit/d11828866438c4dcf2ff6c6af37319434c3f538c))
+
 ## [1.2.4](https://github.com/why520crazy/test-sample/compare/v1.2.3...v1.2.4) (2020-02-26)
 
 
